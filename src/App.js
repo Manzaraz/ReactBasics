@@ -2,6 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componente';
 import Propiedades from './components/Propiedades';
+import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
+import RenderizadoElementos from './components/RenderizadoElementos';
+import { EventosES6, EventosES7 } from './components/Eventos';
+
 
 function App() {
 
@@ -38,7 +43,18 @@ function App() {
             elementoReact={<i>Esto es un elemento React</i>}
             componenteReact={<Componente msg="Soy un componente pasado como props"/>}
           />
+          <hr/>
+          <Estado />
+          <hr/>
+          <RenderizadoCondicional  />
+          <hr/>
+          <RenderizadoElementos  />
+          <hr/>
+          <EventosES6 />
+          <hr/>
+          <EventosES7 />
         </section>
+        <br/><br/>
       </header>
     </div>
   );
