@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import Propiedades from "./Propiedades";
 
 function Pokemon({avatar, name}) {    
     return (
