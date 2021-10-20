@@ -32,15 +32,15 @@ export default function Referencias() {
             <h2>Referencias (ref useRef)</h2>
             <button id="menu-btn" ref={refMenuBtn} onClick={handleToggleMenu} >Menú</button>
             <nav id="menu" ref={refMenu} style={{display: "none"}} >
-                <a href="#">Sección 1</a>
+                <a href="#1">Sección 1</a>
                 <br/>
-                <a href="#">Sección 2</a>
+                <a href="#2">Sección 2</a>
                 <br/>
-                <a href="#">Sección 3</a>
+                <a href="#3">Sección 3</a>
                 <br/>
-                <a href="#">Sección 4</a>
+                <a href="#4">Sección 4</a>
                 <br/>
-                <a href="#">Sección 5</a>
+                <a href="#5">Sección 5</a>
                 <br/>
             </nav>
         </>
